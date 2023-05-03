@@ -1,0 +1,14 @@
+.socials{
+    display: flex;
+    justify-content: center;
+    background-color: #fcd581;
+    
+}
+.color{
+    color: #990d35;
+    padding: 0px 10px;
+}
+a:hover{
+    color: #fcd581;
+} 
+
