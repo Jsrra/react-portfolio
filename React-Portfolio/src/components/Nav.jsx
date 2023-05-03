@@ -5,7 +5,7 @@ function Nav() {
     <nav >
         <ul className="nav">
           <li className="nav-item">
-            <a className="nav-link" aria-current="page" href="#">
+            <a className="nav-link" aria-current="page" href="/">
               About Me
             </a>
           </li>
@@ -15,12 +15,12 @@ function Nav() {
             </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#">
+            <a className="nav-link" href="/Contact">
               Contact
             </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link">
+            <a className="nav-link" href= "/Resume" > 
                 Resume
             </a>
           </li>
