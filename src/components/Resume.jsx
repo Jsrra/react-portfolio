@@ -1,4 +1,4 @@
-// import resume from "../assets/ResumeSS.PNG"
+import resume from "../assets/ResumeSS.png"
 
 function Resume(){
     return (
