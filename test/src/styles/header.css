@@ -1,0 +1,29 @@
+.header{
+    display: flex;
+    background-color: #fcd581;
+    color: #990d35;
+    padding: 5px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.navStyle{
+    display: flex;
+    align-items: center;
+}
+.navColor{
+    color: #990d35;
+}
+.font{
+    font-family: "helvetica";
+}
+
+@media screen and (max-width: 768px){
+    .header{
+        display: block;
+        text-align: center;
+    }
+    .navStyle{
+        justify-content: center;
+        align-items: center;
+    }
+}

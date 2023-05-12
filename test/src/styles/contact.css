@@ -1,0 +1,16 @@
+.contact-container{
+    background-color: #fcd581;
+    display: flex;
+    justify-content: flex-start;
+    padding: 25rem 10rem;
+    flex-direction: column;
+    height: 70rem;
+}
+.input-sizing{
+    width: 50%
+}
+
+.button-sizing{
+    width: 25%;
+    margin-top: 1rem;
+}

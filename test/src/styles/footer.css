@@ -1,0 +1,15 @@
+.socials{
+    display: flex;
+    justify-content: center;
+    background-color: #fcd581;
+    padding: 2rem;
+    
+}
+.color{
+    color: #990d35;
+    padding: 0px 10px;
+}
+a:hover{
+    color: #fcd581;
+} 
+
