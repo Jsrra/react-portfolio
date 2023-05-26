@@ -1,13 +1,23 @@
+import "../styles/portfolio.css"
+
 function Project(props){
 return (
-    <>
-    <img src={props.imgs} alt={props.alts}>
-        {/* <a href={props.repoLink}>
-            <h2>{props.title}</h2>
-        </a> */}
-    </img>
-    </>
+<>
+<div className = "head-text">
+    <div className = "head-image">
+        <img src = {props.imgs} alt = {props.alts} />
+    </div>
+        <div class='text-on-image'>
+            <h3> {props.title} </h3>
+            <p> FREEEEDOM </p>
+        </div>
+</div>
+</> 
 )
 }
 
 export default Project;
+
+{/* <img src={props.imgs} alt={props.alts}></img>
+    <h2></h2> */}
+    
